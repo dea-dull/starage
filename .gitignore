@@ -45,3 +45,4 @@ amplifytools.xcconfig
 **.sample
 #amplify-do-not-edit-end
 src/aws-exports.js
+magic-backend/
