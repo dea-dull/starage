@@ -1,0 +1,12 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "magic-link-backend"
+resolve_s3 = true
+s3_prefix = "magic-link-backend"
+region = "us-west-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "UserPoolId=\"us-west-2_pkhXc4si8\" ClientId=\"7qqlt2eicopsm73vsesksold7u\" FrontendUrl=\"http://44.252.212.192:5173\" FromEmail=\"noreply@ellionis.click\" ApiUrl=\"https://she45zi7y3.execute-api.us-west-2.amazonaws.com/dev\" DOMAIN=\"ellionis.click\" TokenTableName=\"MagicTokens\""
+image_repositories = []
